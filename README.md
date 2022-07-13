@@ -30,7 +30,9 @@ Baseurl: localhost:3100
 
 **GET products by sku**
 - baseurl/api/v1/products/sku/:sku
-*Sample response*
+
+**Sample response**
+
 ```json
 {
   "message": "Successfully found product",
@@ -58,7 +60,9 @@ Baseurl: localhost:3100
 **Consume product stock**
 - baseurl/api/v1/products/stocks?amount=-10&sku=9befa247cd11
 ```json
-*Sample Response*
+
+**Sample Response**
+
 {
   "message": "Successfully consumed stock",
   "success": true
@@ -66,8 +70,11 @@ Baseurl: localhost:3100
 ```
 **Bulk update**
 - baseurl/api/v1/products/csv/uploads?csv=sample
-Where the query params name is assumed that the file exists on the server or uploaded
-*Sample Response*
+
+where the query params csv is assumed that the file exists on the server or uploaded
+
+**Sample Response**
+
 ```json
 {
   "message": "Acknowledged"
@@ -87,6 +94,7 @@ Where the query params name is assumed that the file exists on the server or upl
 
 ## To run all test with coverage 
 - go test -cover ./...
+
 The service layer has a test coverage of 91.3%
 
 
