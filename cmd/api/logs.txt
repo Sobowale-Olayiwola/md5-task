@@ -1,0 +1,1 @@
+time="2022-07-02T15:37:06+01:00" level=info msg="| 302 |  341.917063ms |       127.0.0.1 | GET | /api/v1/products-locations/near-by?lat=1.290270&lng=103.851959&radius=1&title=accountant |"
