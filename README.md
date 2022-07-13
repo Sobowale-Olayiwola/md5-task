@@ -59,10 +59,9 @@ Baseurl: localhost:3100
 ```
 **Consume product stock**
 - baseurl/api/v1/products/stocks?amount=-10&sku=9befa247cd11
-```json
 
 **Sample Response**
-
+```json
 {
   "message": "Successfully consumed stock",
   "success": true
